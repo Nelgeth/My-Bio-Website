@@ -2,26 +2,38 @@ css
 
 
 /* Basic reset and container */
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #fceabb, #f8b500);
+
+html, body {
+  height: 100%;
+  width: 100%;
   margin: 0;
-  padding: 20px;
-  color: #333;
+  padding: 0;
 }
 
-.container {
-  max-width: 800px;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ff6600 0%, #f8b500 50%, #ff6600 100%);
+  margin: 0;
+  padding: 0;
+  color: #333;
+
+}
+
+.container, #app, main {
+  max-width: 1200px;
+  height: 100%;
+  width: 100%;
   margin: auto;
-  background: #b3ffff;
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  background: linear-gradient(to right, #f8b500 25%, #ffad33 50%, to left, #ff6600 25%);
+  border-radius: 20px;
+  padding: 25px;
+ 
+
 }
 
 /* Header */
 header h1 {
-  color: #ff6600;
+  color: #cc0000;
   font-size: 2.5em;
   margin-bottom: 0;
   text-align: center;
@@ -59,7 +71,7 @@ header p {
 }
 
 .tab-button {
-  background-color: #ffcc66;
+  background-color: #ffb366;
   border: none;
   padding: 10px 20px;
   margin-right: 10px;
@@ -70,11 +82,11 @@ header p {
 }
 
 .tab-button:hover {
-  background-color: #ffb84d;
+  background-color: #ff884d;
 }
 
 .tab-button.active {
-  background-color: #ff6600;
+  background-color: #ff1a1a;
   color: white;
 }
 
@@ -97,8 +109,6 @@ header p {
 
 
 
-}
 
 
 
->>>>>>> 1cad69b3234c2c4c626f64b87e9b7657f35f567f
