@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 css
 css
 
@@ -96,3 +97,103 @@ header p {
 
 
 
+=======
+css
+css
+
+/* Basic reset and container */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #b3ffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Header */
+header h1 {
+  color: #ff6600;
+  font-size: 2.5em;
+  margin-bottom: 0;
+  text-align: center;
+
+}
+
+header h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.wip-banner {
+  text-align: center;
+}
+
+
+header p {
+  font-size: 1.2em;
+  margin-top: 5px;
+  color: #ff9900;
+}
+
+.profile-pic {
+  display: block;
+  margin: 20px auto;
+  width: 85px;
+  border-radius: 0%;
+  border: 3px #2c3e50;
+}
+
+/* Tabs */
+.tabs {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  background-color: #ffcc66;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.tab-button:hover {
+  background-color: #ffb84d;
+}
+
+.tab-button.active {
+  background-color: #ff6600;
+  color: white;
+}
+
+/* Tab content */
+.tab-content {
+  display: none;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+
+>>>>>>> 1cad69b3234c2c4c626f64b87e9b7657f35f567f
